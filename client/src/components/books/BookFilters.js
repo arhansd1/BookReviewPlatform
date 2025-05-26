@@ -1,4 +1,4 @@
-// client/src/components/books/BookFilters.js
+
 import React, { useState } from 'react';
 
 const BookFilters = ({ onFilter }) => {
