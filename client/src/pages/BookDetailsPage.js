@@ -1,4 +1,4 @@
-// pages/BookDetailsPage.js
+
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import './BookDetailsPage.css';
@@ -12,7 +12,7 @@ function BookDetailsPage() {
   useEffect(() => {
     // Fetch book details and reviews from API or mock data
     const fetchBook = async () => {
-      // Replace with actual API call
+      // put a API call later :)
       const mockBook = {
         id: id,
         title: "Sample Book",
@@ -37,13 +37,13 @@ function BookDetailsPage() {
     if (newReview.trim()) {
       const userReview = {
         id: reviews.length + 1,
-        user: "CurrentUser", // Replace with actual user
+        user: "CurrentUser", // change to real user later:)
         review: newReview,
-        rating: 4 // You can add a rating input
+        rating: 4 
       };
       setReviews([...reviews, userReview]);
       setNewReview('');
-      // Here you would also save to your database/backend
+      // Hsave the database backend here !
     }
   };
 
