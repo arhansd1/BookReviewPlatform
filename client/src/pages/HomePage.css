@@ -1,0 +1,11 @@
+.home-page {
+    padding: 20px;
+    margin-top: 80px; /* To account for fixed top bar */
+}
+
+.books-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

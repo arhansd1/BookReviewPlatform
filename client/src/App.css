@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+  margin: 0;
+  background: url(./views/backg9.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+
+.top_bar {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;       /* vertically center */
+  justify-content: center;   /* horizontally center */
+  position: fixed;           /* fix at top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.main_heading {
+  font-size: 4rem;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.top_bar {
+  background-color: #2c2b2b , 0.5;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.search_bar input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+}
+
+.nav_icons a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav_icons a:hover {
+  text-decoration: underline;
+}
