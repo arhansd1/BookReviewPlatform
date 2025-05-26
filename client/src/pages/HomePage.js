@@ -6,12 +6,21 @@ import './HomePage.css';
 const featuredBooks = [
   {
     id: 1,
-    title: "The Great Gatsby",
-    author: "F. Scott Fitzgerald",
+    title: " Great Gatsby",
+    author: " Scott Fitzgerald",
     coverImage: "/images/great-gatsby.jpg",
-    rating: 4.5
+    rating: 4
   },
-  // Add more books as needed
+
+  {
+    id:2,
+    title: "Harry Potter",
+    author:"harry ",
+    coverImage:/images/harry_potter.jpg",,
+    rating:0.5
+  },
+  //temporary
+
 ];
 
 function HomePage() {
