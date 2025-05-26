@@ -1,4 +1,4 @@
-// pages/HomePage.js
+
 import React from 'react';
 import BookCard from '../components/books/BookCard';
 import './HomePage.css';
