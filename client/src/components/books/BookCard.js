@@ -1,4 +1,4 @@
-// client/src/components/books/BookCard.js
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
