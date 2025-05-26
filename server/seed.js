@@ -1,4 +1,4 @@
-// server/seed.js
+
 const mongoose = require('mongoose');
 const Book = require('./models/Book');
 
