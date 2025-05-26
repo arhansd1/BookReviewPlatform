@@ -1,4 +1,4 @@
-// pages/ProfilePage.js
+
 import React, { useState, useEffect } from 'react';
 import './ProfilePage.css';
 
@@ -7,7 +7,7 @@ function ProfilePage() {
   const [reviewCount, setReviewCount] = useState(0);
 
   useEffect(() => {
-    // Fetch profile data and review count
+    // ghet profile data and review count
     const mockProfile = {
       name: "Arhan",
       email: "arhan@example.com",
@@ -15,7 +15,7 @@ function ProfilePage() {
     };
     setProfile(mockProfile);
     const count = 0;
-    setReviewCount(count); // Replace with actual count from API
+    setReviewCount(count); // change to actual count from API
   }, []);
 
   if (!profile) return <div>Loading...</div>;
