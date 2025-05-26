@@ -1,4 +1,4 @@
-// client/src/pages/BooksListPage.js
+
 import React, { useState, useEffect } from 'react';
 import { getBooks } from '../services/bookService';
 import BookCard from '../components/books/BookCard';
@@ -41,7 +41,7 @@ const BooksListPage = () => {
     <div className="container">
       <BookFilters onFilter={(search) => {
         setPagination(prev => ({ ...prev, page: 1 }));
-        // You'll need to implement search in getBooks
+        // implement this in getBooks later
       }} />
       <div className="books-grid">
         {books.map(book => (
